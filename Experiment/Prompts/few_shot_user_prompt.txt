@@ -1,0 +1,11 @@
+ f"""You are given a mathematical statement in natural lanaguage written in LaTex, i.e Natural Language:"{message}".
+                Translate the natural language version to an Isabelle version. You only need to translate the statement into Isabelle not solve it.
+                For reference, I will give few examples from algebra and number theory. In each example has <Natural language version> tag which encloses latex version of statement and
+                <Isabelle Version> tag which encloses the Isabelle translation of the statement. The examples are as follows:
+                Algebra Examples:
+                {examples[0]}
+                Number Theory Examples:
+                {examples[1]}
+                Remember the output that you give is structured as filler and message. The message part should strictly contain only Isabelle translation and nothing else.
+                Everthing else should be in filler. Transalation should only be in Isabelle version and in prediction dont include <Natural language version> or <Isabelle Version> tags.
+                """

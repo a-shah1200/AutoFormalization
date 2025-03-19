@@ -1,0 +1,3 @@
+f"""You are given a mathematical statement in natural lanaguage written in LaTex, i.e Natural Language:"{message}". Translate the natural language version to an Isabelle version. You only need to translate the statement into Isabelle not solve it.
+                Remember the output that you give is structured as filler and message. The message part should strictly contain only Isabelle translation and nothing else. Everthing else should be in filler. Transalation should only be in Isabelle version.
+                """
